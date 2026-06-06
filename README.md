@@ -1,28 +1,22 @@
-# 3MTT-Python-Projects
-Data and Python projects built during the 3MTT program
+# Number-Guessing Game (Python)
 
-import random
+A clean, interactive command-line Number-Guessing Game built as part of my practical projects for the **Digital Hospitality Foundation (3MTT)** program. This project demonstrates foundational Python programming skills, logic handling, and user interaction.
 
-# Generate a secret number between 1 and 100
-secret_number = random.randint(1, 100)
+## 🚀 Features
+* **Dynamic Range:** The computer randomly selects a secret number within a defined range.
+* **User Feedback:** Gives real-time hints to the user (e.g., "Too high!" or "Too low!") after each guess.
+* **Score/Attempt Tracking:** Tracks how many attempts the player takes to find the correct number.
+* **Input Validation:** Safely handles cases where a user types letters instead of numbers to prevent the game from crashing.
 
-print("Welcome to the Global Experience Oasis!")
-print("I'm thinking of a number between 1 and 100. Can you guess it?")
+## 🛠️ Concepts Demonstrated
+* Using the built-in Python `random` module.
+* Control flow using `while` loops and `if/elif/else` conditional logic.
+* Error and exception handling with `try/except` blocks.
+* User input processing and type casting.
 
-# Start the loop
-while True:
-    try:
-        # Capture input and convert to integer
-        user_guess = int(input("Enter your guess: "))
-        
-        # Route the logic
-        if user_guess > secret_number:
-            print("Too High!")
-        elif user_guess < secret_number:
-            print("Too Low!")
-        else:
-            print("You Win!")
-            break  # Exit the loop upon winning
-            
-    except ValueError:
-        print("Please enter a valid number.")
+## 📦 How to Run the Project
+
+1. Ensure you have **Python 3** installed on your system.
+2. Clone this repository or download the source code:
+   ```bash
+   git clone [https://github.com/YOUR-USERNAME/3MTT-Python-Projects.git](https://github.com/YOUR-USERNAME/3MTT-Python-Projects.git)
