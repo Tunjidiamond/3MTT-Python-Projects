@@ -1,22 +1,43 @@
-# Number-Guessing Game (Python)
+# 3MTT Practical Python Projects
 
-A clean, interactive command-line Number-Guessing Game built as part of my practical projects for the **Digital Hospitality Foundation (3MTT)** program. This project demonstrates foundational Python programming skills, logic handling, and user interaction.
+A collection of functional, structured Python applications built as part of my practical learning sprint for the **Digital Hospitality Foundation (3MTT)** program. These projects demonstrate a strong foundation in programming logic, code modularity, and user-centric design.
 
-## 🚀 Features
-* **Dynamic Range:** The computer randomly selects a secret number within a defined range.
-* **User Feedback:** Gives real-time hints to the user (e.g., "Too high!" or "Too low!") after each guess.
-* **Score/Attempt Tracking:** Tracks how many attempts the player takes to find the correct number.
-* **Input Validation:** Safely handles cases where a user types letters instead of numbers to prevent the game from crashing.
+---
 
-## 🛠️ Concepts Demonstrated
+## 🧮 Project 1: Modular Calculator
+A clean, terminal-based calculator designed using functional programming principles to handle iterative operations effortlessly.
+
+### 🚀 Features
+* **Core Arithmetic:** Supports addition, subtraction, multiplication, and division.
+* **Modular Structure:** Built using dedicated functions for each mathematical operation to ensure clean, reusable code.
+* **Iterative Design:** Allows users to continuously perform calculations without needing to restart the program.
+* **Division-by-Zero Protection:** Includes built-in safety checks to catch and handle mathematical errors gracefully.
+
+### 🛠️ Concepts Demonstrated
+* Modularity using Python functions (`def`).
+* Input validation and type casting (handling floats and integers).
+* Loop control structures for continuous program execution.
+
+---
+
+## 🎲 Project 2: Number-Guessing Game
+An interactive command-line game that challenges players to guess a randomly generated secret number.
+
+### 🚀 Features
+* **Dynamic Hints:** Gives real-time feedback ("Too high!" or "Too low!") after each guess.
+* **Attempt Tracking:** Keeps score by counting how many tries it takes to find the correct number.
+* **Input Validation:** Safely handles cases where a user types non-numeric characters to prevent system crashes.
+
+### 🛠️ Concepts Demonstrated
 * Using the built-in Python `random` module.
-* Control flow using `while` loops and `if/elif/else` conditional logic.
-* Error and exception handling with `try/except` blocks.
-* User input processing and type casting.
+* Advanced control flow (`while` loops and `if/elif/else` blocks).
+* Exception handling with `try/except` statements.
 
-## 📦 How to Run the Project
+---
 
-1. Ensure you have **Python 3** installed on your system.
-2. Clone this repository or download the source code:
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/3MTT-Python-Projects.git](https://github.com/YOUR-USERNAME/3MTT-Python-Projects.git)
+## 📦 How to Run These Projects
+
+1. Ensure you have **Python 3** installed.
+2. Clone this repository:
+```bash
+   git clone [https://github.com/Tunjidiamond/3MTT-Python-Projects.git](https://github.com/Tunjidiamond/3MTT-Python-Projects.git)
